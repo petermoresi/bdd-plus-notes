@@ -14,15 +14,13 @@
 
 * Overview
 
-*BDD + NOTES* is a software development methodology.
+*BDD + NOTES* is a software development methodology that combines two methodologies:
 
-The is the combination of two common methodologies:
+  1. Software specified through /concrete examples/ written for automated test execution with a *Behavior Driven Development (BDD)* test framework.
 
-  1. Software is specified through /concrete examples/. This concept is called *Behavior Driven Development* (BDD).
+  2. Software created as /notes/ that describe the program logic in a natural language for human understanding and makes use of a *Literate Programming* toolchain.
 
-  2. Software is created as detailed notes that contain embedded programming logic that can be automatically extracted to create working programs. This concept is called *Literate Programming*.
-
-BDD and Literate Programming are used together to create a better solution then when either technique is used alone.
+BDD and Literate Programming are used together to create a better solution then when either methodology is used alone.
 
 * Tools
 
