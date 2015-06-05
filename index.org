@@ -1,0 +1,67 @@
+# -*- mode: org; -*-
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
+
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
+
+#+TITLE: BDD + NOTES
+#+AUTHOR: Peter Moresi
+#+OPTIONS: num:nil
+
+* Overview
+
+*BDD + NOTES* is a software development methodology.
+
+The is the combination of two common methodologies:
+
+  1. Software is specified through /concrete examples/. This concept is called *Behavior Driven Development* (BDD).
+
+  2. Software is created as detailed notes that contain embedded programming logic that can be automatically extracted to create working programs. This concept is called *Literate Programming*.
+
+BDD and Literate Programming are used together to create a better solution then when either technique is used alone.
+
+* Tools
+
+  There are many tools for BDD and literate programming. It is important that you pick the best one for yourself based on your needs.
+
+  The combination that I typically use is:
+
+   - [[http://cucumber.io][Cucumber]] with [[http://ruby-lang.org][Ruby]]
+   - [[http://org-mode.org][Org-Mode]] with whatever gets the job done with the best quality in least amount time
+
+   Org-Mode is a powerful tool for literate programming with a huge impact on your workflow. The learning curve is steep. You will love it or hate it.
+
+   The quick and dirty literate programming style used by docco and friends is great when you want to augment your workflow and not completely replace it. The
+   large number or ports means that you will probably be able to find one for your programming language.
+
+   1. C# Programmers
+
+      - [[http://specflow.org][Specflow]] with C# or [[http://www.fitnesse.org/][Fitnesse]] with .Net fit
+      - [[https://github.com/dontangg/nocco][nocco]] with C#
+
+   2. Clojure/Java Programmers
+
+      - [[http://www.fitnesse.org/][Fitnesse]] with Java
+      - [[https://github.com/gdeer81/marginalia][Marginalia]] with Clojure
+
+   3. Rails Programmers
+
+      - [[http://cucumber.io][Cucumber]] with [[http://ruby-lang.org][Ruby]]
+      - [[https://github.com/rtomayko/rocco][Rocco]] with Ruby
+
+   4. Front-end or Node.js Programmers
+
+      - [[http://www.fitnesse.org/][Fitnesse]] with Coffeescript
+      - [[http://jashkenas.github.io/docco/][Docco]] with Coffeescript
+
+   5. PHP Programmers
+
+      - [[http://www.fitnesse.org/][Fitnesse]] with PHP
+      - [[http://jquery-jkit.com/sourcemakeup/][sourceMakeup]] with PHP
+      
+
+   I wish you success building software with *BDD + NOTES*.
