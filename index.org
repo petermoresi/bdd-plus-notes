@@ -1,4 +1,8 @@
 # -*- mode: org; -*-
+#+TITLE: BDD + NOTES
+#+AUTHOR: Peter Moresi
+#+OPTIONS: num:nil
+
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/readtheorg/css/readtheorg.css"/>
@@ -7,10 +11,6 @@
 #+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="http://www.pirilampo.org/styles/readtheorg/js/readtheorg.js"></script>
-
-#+TITLE: BDD + NOTES
-#+AUTHOR: Peter Moresi
-#+OPTIONS: num:nil
 
 * Overview
 
@@ -63,3 +63,28 @@ BDD and Literate Programming are used together to create a better solution then 
       
 
    I wish you success building software with *BDD + NOTES*.
+* What is a BDD Test Framework?
+
+   BDD Test Framework is a software that executes and reports on concrete examples used to
+
+   1. Describe the world before test execution
+   2. Runs a system under tests
+   3. Verifies the actual vs expected results
+
+
+   Popular choices include Cucumber, Specflow and Fitnesse.
+
+* What is a Literate Programming Toolchain?
+
+  A literate programming toolchain is software that creates programming documenting from programming sources.
+
+  Many tools can be used to accomplish this task. 
+
+   - Some of them were designed specifically for this purpose like Web, NoWeb plus the modern version docco and similar. 
+   - Org-Mode's general purpose markup langauge also supports literate programming through the standard Babel module which extends the general purpose document/spreadsheet capabilities with IDE-like capability. 
+   - Other tools met this goal withough specifically being designed for literate programming. 
+     - The commonly used JavaDoc program for the Java languages purposes excellent documentation.
+     - Many other languages and/or environment contain similar capability.
+
+   Any software that mets this capability may be considered a *literate programming toolchain*.
+
