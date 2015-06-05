@@ -29,7 +29,7 @@ BDD and Literate Programming are used together to create a better solution then 
   The combination that I typically use is:
 
    - [[http://cucumber.io][Cucumber]] with [[http://ruby-lang.org][Ruby]]
-   - [[http://org-mode.org][Org-Mode]] with whatever gets the job done with the best quality in least amount time
+   - [[http://org-mode.org][Org-Mode]] with whatever gets the job done with the best quality in least time
 
    Org-Mode is a powerful tool for literate programming with a huge impact on your workflow. The learning curve is steep. You will love it or hate it.
 
